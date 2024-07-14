@@ -1,0 +1,50 @@
+.upload-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.label input[type="file"] {
+    /* Styles for input[type="file"] elements within elements with class .label */
+    /* You can adjust these styles as needed */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    /* Additional styles if necessary */
+}
+
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
